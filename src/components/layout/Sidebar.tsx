@@ -9,7 +9,7 @@ interface SidebarProps {
 const Sidebar = ({ isOpen }: SidebarProps) => {
   const menuItems = [
     { name: 'Dashboard', href: '/dashboard' },
-    { name: 'Projects', href: '#' },
+    { name: 'Event', href: '/event' },
     { name: 'Documents', href: '#' },
     { name: 'Settings', href: '#' },
   ];
